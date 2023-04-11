@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(35, 37, 37);
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+//All the divs and body content
+
+main {
+    display: grid;
+    place-items: center;
+    // border: 1px solid red;
+    width: 60%;
+    background: #4b79a1;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #4b79a1, #283e51);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #4b79a1, #283e51);
+    
+    border-radius: 15px;
+
+
+    div {
+        width: 30rem;
+        justify-content: center;
+        display: grid;
+    }
+}
+
+
+//home icon style
+.fas {
+    color: white;
+    font-size: x-large;
+    margin: 5px;
+    position: fixed;
+}
+
+
+// heading
+.heading {
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 5px solid white;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: larger;
+}
