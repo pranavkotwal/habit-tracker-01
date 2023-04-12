@@ -7,7 +7,7 @@ const moment = require('moment');
 const mongoose = require('mongoose');
 const db= require('./config/mongoose');
 const expressLayout = require('express-ejs-layouts');
-const port = 8000
+const port = 80
 
 
 moment().format(); 
