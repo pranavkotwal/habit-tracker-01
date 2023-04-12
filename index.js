@@ -25,7 +25,7 @@ app.use('/public', express.static(path.join(__dirname, 'public')));
 
 // static folder middleware
 app.use(express.static(path.join(__dirname,'./assets')))
-app.use(express.urlencoded());
+app.use(express.urlencoded({extended:false}));
 
 // view setup
 app.set('view engine','ejs');
