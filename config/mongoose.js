@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/habittracker')
-
+mongoose.connect('mongodb+srv://duser:VwjqB54S4RoQvQDw@cluster1.kfwq5so.mongodb.net/test')
 const db = mongoose.connection;
 
 db.on('error',console.error.bind(console,"Error connecting to MongoDB"))
